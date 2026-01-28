@@ -29,6 +29,7 @@
 #ifndef UR_CLIENT_LIBRARY_REVERSE_INTERFACE_H_INCLUDED
 #define UR_CLIENT_LIBRARY_REVERSE_INTERFACE_H_INCLUDED
 
+#include "ur_client_library/endian.h"
 #include "ur_client_library/comm/tcp_server.h"
 #include "ur_client_library/comm/control_mode.h"
 #include "ur_client_library/types.h"
@@ -36,7 +37,6 @@
 #include "ur_client_library/ur/robot_receive_timeout.h"
 #include "ur_client_library/ur/version_information.h"
 #include <cstring>
-#include <endian.h>
 #include <condition_variable>
 #include <list>
 
